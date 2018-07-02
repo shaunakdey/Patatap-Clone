@@ -1,0 +1,47 @@
+body, html {
+    height: 100%;
+    background-color: black;
+    margin: 0;
+    font-family: 'Acme', sans-serif;
+}
+
+#loader {
+    z-index: 11;
+    height: 100%;
+    width: 100%;
+    background: orange;
+}
+
+canvas {
+    width: 100%;
+    background-color: black;
+    height: 94%;
+    padding: 0;
+    margin: 0;
+    z-index: 10;
+}
+
+#footer {
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.99 );
+    height: 6%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h2 {
+    padding: 0 0 10px 0;
+    margin: 0;
+    line-height: 30px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+}
+
+span {
+    margin: 10px 2px 0 0;
+    padding: 0;
+}
+
